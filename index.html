@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joke de PL - Générez des blagues professionnelles pour vos réunions d'entreprise">
+    <title>Joke de PL - Blagues pour Meetings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo">😄</div>
+                <h1 class="title">Joke de PL</h1>
+            </div>
+            <p class="subtitle">Des blagues pour nos daily meetings</p>
+        </header>
+
+        <main class="main-content">
+            <div class="joke-card" id="jokeCard">
+                <div class="joke-icon">🎭</div>
+                <p class="joke-text" id="jokeText">
+                    Cliquez sur le bouton pour découvrir une blague parmi 2764 blagues françaises !
+                </p>
+                <div class="loading-spinner" id="loadingSpinner"></div>
+            </div>
+
+            <button class="joke-button" id="jokeButton">
+                <span class="button-text">Nouvelle Blague</span>
+                <span class="button-icon">🎲</span>
+            </button>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="jokeCount">0</div>
+                    <div class="stat-label">Blagues générées</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">2764</div>
+                    <div class="stat-label">Dans la base</div>
+                </div>
+            </div>
+        </main>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
