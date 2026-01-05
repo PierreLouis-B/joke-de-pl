@@ -6,8 +6,9 @@ const API_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjk5NjE2
 const API_URL = 'https://www.blagues-api.fr/api/random';
 
 // Filtres pour exclure certaines catégories (pour garder les blagues appropriées aux meetings)
+// Option SÛRE : Seulement global et dev
 // Categories disponibles: global, dev, dark, limit, beauf, blondes
-const DISALLOWED_CATEGORIES = ['dark', 'limit'];
+const DISALLOWED_CATEGORIES = ['dark', 'limit', 'beauf', 'blondes'];
 
 // ===========================
 // STATE MANAGEMENT
